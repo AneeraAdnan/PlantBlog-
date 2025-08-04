@@ -23,7 +23,7 @@ const BlogCard = ({ post }) => {
         </Link> */}
 
         <Link
-          to={`/post/${post.id}`}
+          to={`/post/${post.slug}`}
           className=" mt-3 text-green-600 text-sm">
           Read More
         </Link>
