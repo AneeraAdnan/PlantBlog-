@@ -1,5 +1,5 @@
 import React from "react";
-import post from "../data/post";
+import post from "../data/Post";
 import BlogCard from "../components/Blogcard";
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const Homepage = () => {
       <h2 className="text-3xl font-bold text-green-800 text-center mb-4">Latest Posts</h2>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {post.slice(0, 3).map((post) => (
-          <BlogCard key={post.id} post={post} />
+          <BlogCard key={post.slug} post={post} />
         ))}
       </div>
       <div className="text-center mt-6">

@@ -11,6 +11,7 @@ const post = [
   {
     id: "1",
     title: "Top 5 Low-Maintenance Indoor Plants",
+    slug: "top-5-low-maintenance-indoor-plants",
     summary:
       "Discover the best indoor plants that require minimal care and thrive in home environments.",
     content:[{ 
@@ -43,6 +44,7 @@ const post = [
   {
     id: "2",
     title: "How to Propagate Succulents",
+    slug: "how-to-propagate-succulents",
     summary:
       "Learn simple steps to propagate succulents and grow your plant collection.",
     content:[{ heading:"To propagate succulents, you can follow these steps",
@@ -79,6 +81,7 @@ const post = [
    {
     id: "3",
     title: "Air-Purifying Plants You Should Have at Home",
+    slug: "air-purifying-plants-you-should-have-at-home",
     summary: "These indoor plants not only look great but also help clean the air in your room.",
     content:[{ heading: "Spider Plants",
                text:"They are powerful air purifiers that are able to remove formaldehyde, a gas that is emitted by cigarette smoke, dry cleaning, synthetic carpeting, fingernail polish, and more. Spider plants also remove carbon monoxide, which you may find in rooms with fireplaces or stoves.",
@@ -102,6 +105,7 @@ const post = [
   {
     id: "4",
     title: "Creative Ways to Display Plants Indoors",
+    slug: "creative-ways-to-display-plants-indoors",
     summary: "From hanging baskets to wall-mounted planters, explore stylish ways to showcase your greenery.",
     content:[{ heading:"Hanging Planters",
                text:`Hanging planters rank high among Indoor Plant Display Ideas since they elevate greenery above ground level, enhancing vertical interest.
@@ -129,6 +133,7 @@ const post = [
     {
     id: "5",
     title: "Best Plants to Grow in Summer Indoors",
+    slug: "best-plants-to-grow-in-summer-indoors",
     summary: "Beat the heat with these vibrant indoor plants that thrive during the summer months.",
     content: [{
                  heading: "Aloe Vera",
@@ -160,6 +165,7 @@ const post = [
   {
     id: "6",
     title: "Common Indoor Plant Problems and How to Fix Them",
+    slug: "common-indoor-plant-problems-and-how-to-fix-them",
     summary: "Yellow leaves? Droopy stems? Learn how to diagnose and solve common indoor plant issues.",
     content:[{ heading:"Leaf Spot Disease",
                text:`Leaf spot diseases manifest as brown and black spots with yellow halos on leaves.Remove affected leaves and improve air circulation 
